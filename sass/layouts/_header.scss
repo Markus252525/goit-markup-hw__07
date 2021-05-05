@@ -1,0 +1,80 @@
+.header{
+    border-bottom: 1px solid #ecececec;
+  }
+  .header__container{
+    display: flex;
+  }                     
+  .header__nav{
+    display: flex;
+    align-items: center;
+  } 
+  .nav__list{
+    display: flex;
+    margin-left: 93px;
+  }
+  .nav__list .item + .item{
+    margin-left: 50px;
+  }
+  .nav__list .link,
+  .contact__list .link{
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .contact__list{
+    display: flex;
+    margin-left: auto;
+  }
+  .contact__list .item + .item{
+    margin-left: 50px;
+  }
+  
+  .logo{
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    letter-spacing: 0.03em;
+  
+    color: var(--activ-color);
+  }
+  .logo__header{
+    color: var(--logo-color);
+  }
+  
+  .nav__list{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    color: var(--title-color);
+  }
+  .nav__list  .link{
+    position: relative;
+    transition:  color  var(--animation-effect);
+  }
+  .contact__list{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .contact__link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: color var(--animation-effect);
+    
+  }
+  .contact__link:hover .contact__icon,
+  .contact__link:focus .contact__icon{
+    fill: var(--activ-color);
+  }
+  .contact__list .contact__icon{
+    fill: var(--main-color);
+    margin-right: 10px;
+    transition: fill var(--animation-effect);
+  }
+  
+  

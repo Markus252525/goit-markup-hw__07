@@ -1,0 +1,47 @@
+.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../image/bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--bg-footer-color);
+  }
+  .hero__title{
+    margin-bottom: 0;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+  }
+  .hero__button{
+    margin-top: 30px;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border:var(--activ-color) ;
+    border-radius: 4px;
+  
+    font-weight:700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+   
+    color: var(--white-color);
+    background-color: var(--activ-color);
+    transition: background var(--animation-effect);
+      &:hover,
+      &:focus{
+        border:#188CE8 ;
+        background-color: #188CE8;
+      }
+  }
